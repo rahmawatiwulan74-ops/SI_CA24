@@ -22,42 +22,52 @@
         <span>kategori</span>
     </a>
 </li>
-
+</li>
+<hr class="sidebar-divider my-0">
+<li class="nav-item">
+    <a class="nav-link" href="<?= base_url('buku'); ?>">
+        <i class="fas fa-users"></i>
+        <span>buku</span>
+    </a>
+</li>
+<hr class="sidebar-divider my-0">
+<li class="nav-item">
+    <a class="nav-link" href="<?= base_url('buku_saya'); ?>">
+        <i class="fas fa-users"></i>
+        <span>data buku</span>
+    </a>
+</li>
 <hr class="sidebar-divider my-0">
 
 <li class="nav-item">
-    <a class="nav-link" href="<?= base_url('Buku'); ?>">
-        <i class="fas fa-book"></i>
-        <span>Data Buku</span>
+    <a class="nav-link" href="<?= base_url('anggota'); ?>">
+        <i class="fas fa-users"></i>
+        <span>Anggota</span>
     </a>
-    <hr class="sidebar-divider d-npne d-md-block">
 </li>
+
+<hr class="sidebar-divider my-0">
 <li class="nav-item">
-    <a class="nav-link" href="<?= base_url('buku_saya'); ?>">
-        <i class="fas fa-book"></i>
-        <span>menampilkan data buku</span>
+    <a class="nav-link" href="<?= base_url('peminjaman'); ?>">
+        <i class="fas fa-users"></i>
+        <span>peminjaman</span>
     </a>
-    <hr class="sidebar-divider d-npne d-md-block">
-    <li class="nav-item active">
-        <a class="nav-link" href="<?= site_url('anggota')?>">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>anggota</span>
-        </a>
-<hr class="sidebar-divider d-npne d-md-block">
 </li>
-<li class="nav-item active">
-        <a class="nav-link" href="<?= site_url('peminjaman')?>">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>data peminjaman</span>
-        </a>
-    </li>
-<hr class="sidebar-divider d-npne d-md-block">
+
 <li class="nav-item">
     <a class="nav-link" href="<?= base_url('laporan/peminjaman'); ?>">
         <i class="fas fa-users"></i>
         <span>laporan peminjaman</span>
     </a>
 </li>
+<li class="nav-item">
+    <a class="nav-link" href="<?= site_url('laporan/buku'); ?>">
+        <i class="fas fa-book"></i>
+        <span>Laporan Buku</span>
+    </a>
+</li>
+
+
 <hr class="sidebar-divider d-npne d-md-block">
 </ul>
 <div id="content-wrapper" class="d-flex flex-column">

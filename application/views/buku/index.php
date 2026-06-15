@@ -6,7 +6,9 @@
 <a href="<?= base_url('buku/tambah'); ?>" class="btn btn-primary mb-3">
     Tambah Buku
 </a>
-
+<a href="<?= base_url('laporan/buku'); ?>" target="_blank" class="btn btn-success mb-3">
+    Cetak Laporan
+</a>
 <table class="table table-bordered" id="dataTable">
     <thead>
         <tr>
